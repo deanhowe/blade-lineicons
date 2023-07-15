@@ -1,12 +1,14 @@
 {
-    "name": "blade-organization/blade-heroicons",
-    "description": "A package to easily make use of Heroicons in your Laravel Blade views.",
-    "keywords": ["Blade", "Heroicons", "Laravel"],
-    "homepage": "https://github.com/blade-organization/blade-heroicons",
+    "name": "datlechin/blade-lineicons",
+    "description": "A package to easily make use of Lineicons in your Laravel Blade views.",
+    "keywords": ["Blade", "Lineicons", "Laravel"],
+    "homepage": "https://github.com/datlechin/blade-lineicons",
     "license": "MIT",
     "authors": [
         {
-            "name": "Blade Developer"
+            "name": "Ngo Quoc Dat",
+            "email": "datlechin@gmail.com",
+            "homepage": "https://ngoquocdat.dev"
         }
     ],
     "require": {
@@ -20,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "BladeUI\\Heroicons\\": "src"
+            "Datlechin\\Lineicons\\": "src"
         }
     },
     "autoload-dev": {
@@ -31,7 +33,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "BladeUI\\Heroicons\\BladeHeroiconsServiceProvider"
+                "Datlechin\\Lineicons\\BladeLineiconsServiceProvider"
             ]
         }
     },
