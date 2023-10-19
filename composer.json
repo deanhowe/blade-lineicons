@@ -1,45 +1,49 @@
 {
-    "name": "datlechin/blade-lineicons",
-    "description": "A package to easily make use of Lineicons in your Laravel Blade views.",
-    "keywords": ["Blade", "Lineicons", "Laravel"],
-    "homepage": "https://github.com/datlechin/blade-lineicons",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Ngo Quoc Dat",
-            "email": "datlechin@gmail.com",
-            "homepage": "https://ngoquocdat.dev"
-        }
-    ],
-    "require": {
-        "php": "~8.1.0|~8.2.0",
-        "blade-ui-kit/blade-icons": "^1.4",
-        "illuminate/support": "^9.0|^10.0"
-    },
-    "require-dev": {
-        "orchestra/testbench": "^7.0|^8.0",
-        "phpunit/phpunit": "^10.2.7"
-    },
-    "autoload": {
-        "psr-4": {
-            "Datlechin\\Lineicons\\": "src"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Tests\\": "tests"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Datlechin\\Lineicons\\BladeLineiconsServiceProvider"
-            ]
-        }
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+  "name": "datlechin/blade-lineicons",
+  "description": "A package to easily make use of Lineicons in your Laravel Blade views.",
+  "keywords": [
+    "Blade",
+    "Lineicons",
+    "Laravel"
+  ],
+  "homepage": "https://github.com/datlechin/blade-lineicons",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ngo Quoc Dat",
+      "email": "datlechin@gmail.com",
+      "homepage": "https://ngoquocdat.dev"
+    }
+  ],
+  "require": {
+    "php": "~8.1.0|~8.2.0",
+    "blade-ui-kit/blade-icons": "1.5.3",
+    "illuminate/support": "^9.0|^10.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^7.0|^8.0",
+    "phpunit/phpunit": "^10.2.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Datlechin\\Lineicons\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Datlechin\\Lineicons\\BladeLineiconsServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
